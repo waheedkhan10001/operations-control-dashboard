@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Control Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">ControlPortal</div>
+
+      <nav class="top-nav">
+        <button class="nav-item active">Dashboard</button>
+        <button class="nav-item">Assets</button>
+        <button class="nav-item">Teams</button>
+        <button class="nav-item">Reports</button>
+      </nav>
+
+      <div class="user-area">
+        <span class="user-name">Abdul W. Khan</span>
+        <button class="logout">Logout</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="side-panel">
+        <h2 class="panel-title">Navigation</h2>
+        <ul class="side-menu">
+          <li class="menu-item active">Overview</li>
+          <li class="menu-item">Operations</li>
+          <li class="menu-item">Logistics</li>
+          <li class="menu-item">Personnel</li>
+          <li class="menu-item">Analytics</li>
+        </ul>
+      </aside>
+
+      <section class="content-area">
+        <header class="content-header">
+          <div>
+            <h1>Operational Overview</h1>
+            <p class="subtitle">Live system performance snapshot</p>
+          </div>
+
+          <div class="time-filters">
+            <button>Today</button>
+            <button class="active">This Week</button>
+            <button>This Month</button>
+          </div>
+        </header>
+
+        <section class="metrics-grid">
+          <article class="metric-card success">
+            <h3>System Health</h3>
+            <p class="metric">98%</p>
+            <p class="meta">Stable</p>
+          </article>
+
+          <article class="metric-card warning">
+            <h3>Pending Tasks</h3>
+            <p class="metric">14</p>
+            <p class="meta">Requires review</p>
+          </article>
+
+          <article class="metric-card danger">
+            <h3>Critical Alerts</h3>
+            <p class="metric">2</p>
+            <p class="meta">Immediate action</p>
+          </article>
+
+          <article class="metric-card">
+            <h3>Active Units</h3>
+            <p class="metric">27</p>
+            <p class="meta">Across regions</p>
+          </article>
+
+          <article class="metric-card">
+            <h3>Resource Usage</h3>
+            <p class="metric">74%</p>
+            <p class="meta">Weekly average</p>
+          </article>
+
+          <article class="metric-card">
+            <h3>Reports Filed</h3>
+            <p class="metric">39</p>
+            <p class="meta">This week</p>
+          </article>
+        </section>
+      </section>
+
+      <aside class="insights-panel">
+        <h2>Insights</h2>
+
+        <div class="insight-box">
+          <h4>Performance</h4>
+          <p>Operations exceeding baseline targets.</p>
+        </div>
+
+        <div class="insight-box">
+          <h4>Risk</h4>
+          <p>Logistics delays expected in Sector C.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>© 2025 ControlPortal</span>
+      <span>Status: All systems operational</span>
+    </footer>
+  </body>
+</html>
