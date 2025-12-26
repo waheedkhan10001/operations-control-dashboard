@@ -5,7 +5,7 @@ An enterprise-style internal operations dashboard built using **HTML and vanilla
 ![Control Portal Screenshot](./screenshot.png)
 
 🌐 **Live Demo:**  
-https://<your-username>.github.io/forge-css-control-portal/
+[https://<your-username>.github.io/forge-css-control-portal/](https://waheedkhan10001.github.io/operations-control-dashboard/)
 
 ---
 
